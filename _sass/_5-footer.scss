@@ -1,0 +1,32 @@
+#footer {
+    margin-top: 50px;
+	margin-bottom: 15px;
+	background-color: $ca_bg;
+	color: $ca_font;
+	text-align: center;
+    font-size: 1.08em;
+}
+
+#newsletter {
+    margin-bottom: 15px;
+    font-size: 1.4em;
+}
+
+#newsletter-entry {
+    border-radius: 2px;
+    border: 1px solid $b;
+    margin-right: 5px;
+    padding: 5px 9px;
+}
+
+#newsletter-button {
+    background-color: $cc_bp_bg;
+    color: $cc_bp_font;
+    border-radius: 2px;
+    border: 0px;
+    padding: 6px 9px;
+}
+#newsletter-button:hover, #newsletter-button:focus, #newsletter-button:active {
+		background-color: $cc_ba_bg;
+        color: $cc_ba_font;
+	}

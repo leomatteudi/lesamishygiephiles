@@ -1,0 +1,62 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+#
+# Do not use tabs, but spaces instead !
+
+# Site settings
+url: "http://www.lesamishygiephiles.fr"
+baseurl: ""
+title: "Les Amis Hygiéphiles"
+maile: "ak<!--M-->.<!--M-->tamari<!--M-->@<!--M-->g<!--M-->mail<!--M-->.<!--M-->com"
+tele: "0<!--M-->7.8<!--M-->1.5<!--M-->8.5<!--M-->2.4<!--M-->7"
+newsletter: "https://tinyletter.com/lesamishygiephiles"
+
+# Github-pages
+github: [metadata]
+encoding: UTF-8
+kramdown:
+  input: GFM
+  hard_wrap: true
+  gfm_quirks: paragraph_end
+  math_engine: mathjax
+  syntax_highlighter: rouge
+future: true
+jailed: false
+lsi: false
+safe: true
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+plugins:
+  - jekyll-coffeescript
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-paginate
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+theme: null
+
+
+# Build settings
+destination: ._site
+exclude:
+  - Gemfile.lock
+  - LICENCE.md
+  - README.md
+
+# SASS
+sass:
+  sass_dir: _sass
+  style: compressed

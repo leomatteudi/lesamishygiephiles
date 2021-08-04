@@ -1,0 +1,54 @@
+#main {
+	padding: 5px 8px 5px 8px;
+	background-color: $cc_bg;
+	color: $cc_font;
+}
+
+
+
+
+
+#boutons {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+.bouton {
+    background-color: $cc_bp_bg;
+    color: $cc_bp_font;
+    border-radius: 2px;
+    padding: 6px 9px;
+    text-decoration: none;
+}
+
+.bouton:hover, .bouton:focus, .bouton:active {
+	background-color: $cc_ba_bg;
+    color: $cc_ba_font;
+    text-decoration: none;
+}
+
+
+
+
+#calendrier {
+	width: 100%;
+	max-width: $max_width;
+    border: 1px solid $b;
+}
+
+
+
+.portrait {
+    height: 190px;
+    margin-top: 16px;
+}
+
+.presentation {
+    display:flex;
+    align-items: center;
+}
+
+#evelyne {
+    margin-left: 20px;
+}

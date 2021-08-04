@@ -1,0 +1,50 @@
+---
+---
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{{ page.title }} - {{ site.title }}</title>
+	<link rel="stylesheet" href="/style.css">
+	<!--[if lt IE 9]><script src="/static/dev/html5shiv.js"></script><![endif]-->
+</head>
+<body>
+
+<header id="header" class="block">
+	<div id="header-sitetitle">{{ site.title }}</div>
+	<div id="header-sitesubtitle">Accompagnement au jeûne et à l'hygiène naturelle</div>
+	<nav id="header-nav">
+		{% if page.url == '/' %}<div class="header-nav-active">
+			{% else %}<div class="header-nav-passive">
+			{% endif %}<a href="/">Accueil</a></div>
+		{% if page.url == '/stages-de-jeune.html' %}<div class="header-nav-active">
+			{% else %}<div class="header-nav-passive">
+			{% endif %}<a href="/stages-de-jeune.html">Stages de jeûne</a></div>
+		{% if page.url == '/formation.html' %}<div class="header-nav-active">
+			{% else %}<div class="header-nav-passive">
+			{% endif %}<a href="/formation.html">Formation</a></div>
+		{% if page.url == '/jeune-autonome.html' %}<div class="header-nav-active">
+			{% else %}<div class="header-nav-passive">
+			{% endif %}<a href="/jeune-autonome.html">Jeûne autonome</a></div>
+		{% if page.url == '/calendrier.html' %}<div class="header-nav-active">
+			{% else %}<div class="header-nav-passive">
+			{% endif %}<a href="/calendrier.html">Calendrier</a></div>
+		{% if page.url == '/contact.html' %}<div class="header-nav-active">
+			{% else %}<div class="header-nav-passive">
+			{% endif %}<a href="/contact.html">Contact</a></div>
+	</nav>
+</header>
+
+<main id="main" class="block">
+	{{ content }}
+</main>
+
+<footer id="footer" class="block">
+    <div><form id="newsletter" action="{{ site.newsletter }}" method="post" target="popupwindow" onsubmit="window.open('{{ site.newsletter }}', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><input id="newsletter-entry" type="text" name="email" id="tlemail" placeholder="Courriel"/><input type="hidden" value="1" name="embed"/><input id="newsletter-button" type="submit" value="Recevoir les actualités" /></form></div>
+	<div>Evelyne Curt — {{ site.tele }} — {{ site.maile }}</div>
+</footer>
+
+</body>
+</html>
