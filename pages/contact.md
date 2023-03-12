@@ -28,4 +28,4 @@ Au plaisir de vous rencontrer ou de vous accueillir pour grandir ensemble.
 >Evelyne Curt  
 >42 rue Vaucourte 26270 Loriol-sur-Drôme
 >
->Site internet fait main par [Léo Matteudi](https://www.leomatteudi.com), propulsé par [Jekyll](http://jekyllrb.com/) et hébergé par [Github](http://github.com/).
+>Site internet propulsé par [Jekyll](http://jekyllrb.com/) et hébergé par [Github](http://github.com/).
