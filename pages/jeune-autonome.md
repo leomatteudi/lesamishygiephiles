@@ -14,8 +14,6 @@ Toute l'année, je peux vous proposer un suivi par téléphone (tarif convenu en
 
 ## Jeûnons ensemble !
 
-<div id="boutons"><a class="bouton" href="https://annuel2.framapad.org/p/jeunons-ensemble"> Consulter les annonces / Déposer une annonce</a></div>
-
 Je relaie ici ce concept initié par Bernard Clavière.
 Solution intermédiaire entre "jeûner seul chez soi" et "participer à un stage organisé".
 
